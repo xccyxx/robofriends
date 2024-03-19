@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "PressStart2P";
+    src: local("PressStart2P-Regular"), url('./PressStart2P-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "ShareTechMono";
+    src: local("ShareTechMono-Regular"), url('./ShareTechMono-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: "ShareTechMono", monospace;
+}
+
+h1 {
+    font-family: "PressStart2P", monospace;
+    font-weight: 200;  
+    color: #00416A;
+}
